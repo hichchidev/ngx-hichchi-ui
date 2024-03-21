@@ -117,7 +117,7 @@ module.exports = {
           },
         ],
         "line-comment-position": "off",
-        "linebreak-style": ["error", "windows"],
+        "linebreak-style": "off",
         "lines-around-comment": "off",
         "lines-between-class-members": "error",
         "max-classes-per-file": "off",
