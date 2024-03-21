@@ -9,6 +9,7 @@
     "watch": "ng build --watch --configuration development",
     "library": "npm run build:sass && ng build ngx-hichchi-ui",
     "library:watch": "npm run build:sass && ng build ngx-hichchi-ui --watch",
+    "verdaccio": "verdaccio",
     "test": "ng test",
     "lint": "ng lint"
   },
@@ -40,6 +41,7 @@
     "@angular-eslint/template-parser": "17.3.0",
     "@angular/cli": "^17.0.0",
     "@angular/compiler-cli": "^17.0.0",
+    "@changesets/cli": "^2.27.1",
     "@types/jasmine": "~5.1.0",
     "@typescript-eslint/eslint-plugin": "7.2.0",
     "@typescript-eslint/parser": "7.2.0",

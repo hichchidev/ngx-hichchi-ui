@@ -1,0 +1,17 @@
+.angular/
+.idea/
+.changeset/
+.github/
+dist/
+node_modules/
+src/
+projects/
+.eslintrc.js
+.editorconfig
+angular.json
+.gitignore
+.npmignore
+*.spec.ts
+tsconfig.json
+tsconfig.app.json
+tsconfig.spec.json
