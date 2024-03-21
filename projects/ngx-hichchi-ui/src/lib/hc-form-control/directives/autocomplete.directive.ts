@@ -1,7 +1,6 @@
-import { Directive } from "@angular/core";
-
-@Directive({
-    selector: "[hcAutocomplete]",
-})
-export class InputAutocompleteDirective {}
+import { Directive } from "@angular/core";
 
+@Directive({
+    selector: "[hcAutocomplete]",
+})
+export class InputAutocompleteDirective {}

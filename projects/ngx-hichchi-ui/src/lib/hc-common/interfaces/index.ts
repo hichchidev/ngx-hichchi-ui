@@ -1,3 +1,2 @@
-export * from "./pagination.interfaces";
-export * from "./menu.interface";
-
+export * from "./pagination.interfaces";
+export * from "./menu.interface";
