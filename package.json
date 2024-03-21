@@ -10,8 +10,11 @@
     "library:build": "npm run build:sass && ng build ngx-hichchi-ui",
     "library:build:watch": "npm run build:sass && ng build ngx-hichchi-ui --watch",
     "verdaccio": "verdaccio",
+    "verdaccio:add-user": "npm adduser --registry http://localhost:4873",
+    "verdaccio:publish": "npm publish --registry http://localhost:4873",
+    "verdaccio:unpublish": "npm unpublish --force ngx-hichchi-ui --registry http://localhost:4873",
     "prepublish": "npm run library:build",
-    "release": "npm run library:build && changeset publish",
+    "release": "cd dist/ngx-hichchi-ui && npm run library:build && changeset publish",
     "test": "ng test",
     "lint": "ng lint"
   },
