@@ -1,5 +1,5 @@
 ---
-"ngx-hichchi-ui": patch
+"ngx-hichchi-test": patch
 ---
 
 Initial publish
