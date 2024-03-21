@@ -1,0 +1,17 @@
+<div class="layout-header">
+    <div class="layout-header-left">
+        <ng-container *ngIf="headerLogo">
+            <div>
+                <ng-container *ngTemplateOutlet="headerLogo.templateRef"></ng-container>
+            </div>
+        </ng-container>
+        <div class="layout-header-logo" *ngIf="!headerLogo && logo">
+            <!--suppress AngularNgOptimizedImage -->
+            <img [src]="logo" alt="logo" />
+        </div>
+        <div class="layout-header-title" *ngIf="title">{{ title }}</div>
+    </div>
+    <div class="layout-header-right">
+        <hc-header-menu [menu]="menu"></hc-header-menu>
+    </div>
+</div>

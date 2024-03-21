@@ -1,0 +1,26 @@
+:host {
+    display: block;
+    position: fixed;
+
+    ::ng-deep {
+        .scrollbar-control {
+            height: calc(100% - (var(--app-spacing-2) * 3));
+            margin-top: calc((var(--app-spacing-2) * 3) / 2);
+            margin-right: 5px;
+        }
+    }
+}
+
+.layout-content {
+    height: 100%;
+    padding-left: var(--app-spacing-2);
+
+    ng-scrollbar {
+        height: 100% !important;
+    }
+
+    .layout-scroll-content {
+        height: 100% !important;
+        padding-top: var(--app-spacing-2);
+    }
+}

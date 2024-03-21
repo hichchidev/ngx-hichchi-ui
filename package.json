@@ -2,10 +2,13 @@
   "name": "ngx-hichchi",
   "version": "0.0.0",
   "scripts": {
+    "build:sass": "sass projects/ngx-hichchi-ui/ngx-hichchi-ui.scss projects/ngx-hichchi-ui/ngx-hichchi-ui.css",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "library": "npm run build:sass && ng build ngx-hichchi-ui",
+    "library:watch": "npm run build:sass && ng build ngx-hichchi-ui --watch",
     "test": "ng test",
     "lint": "ng lint"
   },
@@ -19,6 +22,11 @@
     "@angular/platform-browser": "^17.0.0",
     "@angular/platform-browser-dynamic": "^17.0.0",
     "@angular/router": "^17.0.0",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.1",
+    "hichchi-utils": "^1.0.7",
+    "moment": "^2.30.1",
+    "ngx-scrollbar": "^13.0.3",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.2"
@@ -47,6 +55,7 @@
     "ng-packagr": "^17.3.0",
     "prettier": "^3.2.5",
     "prettier-eslint": "^16.3.0",
+    "scss": "^0.2.4",
     "typescript": "~5.2.2"
   }
 }

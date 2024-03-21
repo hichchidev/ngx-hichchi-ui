@@ -1,0 +1,15 @@
+svg {
+    min-height: 85px;
+
+    .primary-color {
+        fill: var(--app-primary-color);
+    }
+
+    .secondary-color {
+        fill: var(--app-sub-text-color);
+    }
+}
+
+.content {
+    min-height: 115px;
+}

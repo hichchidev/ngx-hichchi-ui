@@ -1,0 +1,30 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "src/styles/variables";
+@import "src/styles/functions";
+
+.scroll-track {
+    background-color: #aaa !important;
+}
+
+.scroll-thumb {
+    background-color: var(--app-primary-color) !important;
+}
+
+//::-webkit-scrollbar {
+//    width: var(--app-scroll-bar-size) !important;
+//    height: var(--app-scroll-bar-size) !important;
+//}
+//
+//::-webkit-scrollbar-track {
+//    box-shadow: inset 0 0 var(--app-scroll-bar-size) var(--app-scroll-bar-size) #aaa !important;
+//    border: solid 3px transparent !important;
+//    border-radius: 5px !important;
+//}
+//
+//::-webkit-scrollbar-thumb {
+//    background-color: transparent !important;
+//    box-shadow: inset 0 0 var(--app-scroll-bar-size) var(--app-scroll-bar-size) var(--app-primary-color) !important;
+//    border: solid 3px transparent !important;
+//    border-radius: 5px !important;
+//}

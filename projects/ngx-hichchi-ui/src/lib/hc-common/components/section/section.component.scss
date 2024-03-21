@@ -1,0 +1,31 @@
+:host {
+    display: block;
+    z-index: var(--z-index-section);
+    background-color: var(--app-surface-color);
+    padding: var(--app-spacing-2);
+    box-shadow: var(--app-shadow);
+    position: relative;
+
+    &.app-section-full {
+        min-height: 100%;
+        border-radius: var(--app-radius-1) 0 0 0;
+    }
+
+    &:not(.app-section-full) {
+        border-radius: var(--app-radius-1);
+    }
+
+    &.app-section-transparent {
+        margin: 0 var(--bs-accordion-body-padding-y);
+        padding: 0;
+        background-color: transparent;
+    }
+
+    &.app-section-loading, &.app-section-error {
+        height: 100%;
+    }
+}
+
+::ng-deep .layout-scroll-content > router-outlet + * > hc-section:not(.app-section-full) {
+    margin-right: var(--app-spacing-2) !important;
+}

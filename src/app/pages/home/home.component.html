@@ -1,0 +1,10 @@
+<hc-section [full]="true" [loading]="loading" [error]="error" (onRefresh)="refresh()">
+    <ng-template hcSectionHeading>
+        <h4 class="mb-4 font-bold">Home Page</h4>
+    </ng-template>
+
+    <div [formGroup]="testForm">
+        <hc-input label="Email" description="Enter your email here" formControlName="email"></hc-input>
+        <button type="button" class="btn btn-primary" (click)="submit()">Submit</button>
+    </div>
+</hc-section>

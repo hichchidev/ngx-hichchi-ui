@@ -1,0 +1,131 @@
+<!--suppress HtmlUnknownAttribute -->
+<label *ngIf="label" [attr.data-control]="formControlName || name || ''" class="form-label font-bold">{{ label }}</label>
+<div
+    class="input-group hc-control has-validation {{ styleClass }}"
+    [class.disabled]="disabled"
+    [ngClass]="size === 'sm' ? 'hc-control-sm' : size === 'lg' ? 'hc-control-lg' : ''"
+    [class.has-touched]="control?.touched"
+    [class.has-dirty]="control?.dirty"
+    [class.has-invalid]="isInvalid()"
+>
+    <i class="icon" *ngIf="icon" [class]="icon"></i>
+    <span *ngIf="!icon && rightText" class="input-group-text">{{ rightText }}</span>
+    <input
+        *ngIf="!hcDatepicker && !hcTimepicker && !hcTextarea && !hcDateTimePicker"
+        #input
+        [type]="getType()"
+        maxlength="255"
+        class="form-control hc-form-control {{ getInputClasses() }}"
+        spellcheck="false"
+        [class.text-right]="hcNumber"
+        [class.ng-invalid]="isInvalid()"
+        [class.ng-valid]="!isInvalid()"
+        [class.is-invalid]="control?.touched && control?.dirty && isInvalid()"
+        [class.has-icon]="icon"
+        [autocomplete]="hcAutoComplete ? 'new-password' : ''"
+        [name]="formControlName || name || ''"
+        [attr.name]="formControlName || name || ''"
+        [readonly]="readonly"
+        [(ngModel)]="value"
+        [disabled]="disabled"
+        [max]="max"
+        [min]="min"
+        (ngModelChange)="changeValue($event)"
+    />
+
+    <!--suppress JSUnusedGlobalSymbols -->
+    <textarea
+        *ngIf="hcTextarea"
+        #input
+        rows="1"
+        class="form-control hc-form-control {{ getInputClasses() }}"
+        [class.ng-invalid]="isInvalid()"
+        [class.ng-valid]="!isInvalid()"
+        [class.is-invalid]="control?.touched && control?.dirty && isInvalid()"
+        [class.has-icon]="icon"
+        [name]="formControlName || name || ''"
+        [attr.name]="formControlName || name || ''"
+        [readonly]="readonly"
+        [(ngModel)]="value"
+        [disabled]="disabled"
+        (ngModelChange)="changeValue($event); autoResizeTextArea()"
+    >
+    </textarea>
+
+    <!--    <input-->
+    <!--        *ngIf="hcDatepicker"-->
+    <!--        bsDatepicker-->
+    <!--        type="text"-->
+    <!--        class="form-control hc-form-control text-center {{ getInputClasses() }}"-->
+    <!--        spellcheck="false"-->
+    <!--        [class.is-invalid]="isInvalid()"-->
+    <!--        [class.has-icon]="icon"-->
+    <!--        [name]="formControlName || name || ''"-->
+    <!--        [attr.name]="formControlName || name || ''"-->
+    <!--        [readonly]="readonly"-->
+    <!--        [ngModel]="value"-->
+    <!--        [disabled]="disabled"-->
+    <!--        [bsConfig]="{ dateInputFormat: 'YYYY-MM-DD' }"-->
+    <!--        (ngModelChange)="changeValue($event)"-->
+    <!--    />-->
+
+    <!--suppress JSUnusedGlobalSymbols -->
+    <!--    <timepicker-->
+    <!--        *ngIf="ngTimepicker"-->
+    <!--        #input-->
+    <!--        class="form-control hc-form-control {{ getInputClasses() }}"-->
+    <!--        [mousewheel]="true"-->
+    <!--        [arrowkeys]="true"-->
+    <!--        [class.is-invalid]="isInvalid()"-->
+    <!--        [class.has-icon]="icon"-->
+    <!--        [attr.name]="formControlName || name || ''"-->
+    <!--        [ngModel]="value"-->
+    <!--        [disabled]="disabled"-->
+    <!--        (ngModelChange)="changeValue($event)"-->
+    <!--    ></timepicker>-->
+
+    <!--    <div *ngIf="hcDateTimePicker" class="form-control hc-form-control datetime-picker">-->
+    <!--        <div class="date-picker">-->
+    <!--            <input-->
+    <!--                bsDatepicker-->
+    <!--                type="text"-->
+    <!--                class="form-control hc-form-control text-center {{ getInputClasses() }}"-->
+    <!--                spellcheck="false"-->
+    <!--                [class.is-invalid]="isInvalid()"-->
+    <!--                [class.has-icon]="icon"-->
+    <!--                [name]="formControlName || name || ''"-->
+    <!--                [attr.name]="formControlName || name || ''"-->
+    <!--                [readonly]="readonly"-->
+    <!--                [ngModel]="value"-->
+    <!--                [disabled]="disabled"-->
+    <!--                [bsConfig]="{ dateInputFormat: 'YYYY-MM-DD' }"-->
+    <!--                (ngModelChange)="changeValue($event)"-->
+    <!--            />-->
+    <!--        </div>-->
+    <!--        <div>-->
+    <!--            &lt;!&ndash;suppress JSUnusedGlobalSymbols &ndash;&gt;-->
+    <!--            <timepicker-->
+    <!--                [mousewheel]="true"-->
+    <!--                [arrowkeys]="true"-->
+    <!--                [class.is-invalid]="isInvalid()"-->
+    <!--                [class.has-icon]="icon"-->
+    <!--                [attr.name]="formControlName || name || ''"-->
+    <!--                [ngModel]="value"-->
+    <!--                [disabled]="disabled"-->
+    <!--                (ngModelChange)="changeValue($event)"-->
+    <!--            ></timepicker>-->
+    <!--        </div>-->
+    <!--    </div>-->
+</div>
+
+<div *ngIf="description" class="form-text">{{ description }}</div>
+<div *ngIf="!hcNoValidation" class="invalid-feedback">
+    <span *ngIf="!hasErrorFor('required') && ifError('required')">Please enter {{ label?.toLowerCase() ?? getName() }}.</span>
+    <span *ngIf="!hasErrorFor('email') && ifError('email')">Invalid e-mail address.</span>
+    <span *ngIf="!hasErrorFor('matched') && ifError('matched')">{{ label ?? getName() | toFirstCase }} does not match.</span>
+    <ng-container *ngFor="let error of errors">
+        <span *ngIf="error.hcValidationError && ifError(error.hcValidationError)">
+            <ng-container *ngTemplateOutlet="error.templateRef"></ng-container>
+        </span>
+    </ng-container>
+</div>

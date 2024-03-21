@@ -1,0 +1,10 @@
+<ng-container *ngIf="!loading && !error">
+    <ng-container *ngIf="heading">
+        <ng-container *ngTemplateOutlet="heading.templateRef"></ng-container>
+    </ng-container>
+    <ng-content></ng-content>
+</ng-container>
+<div *ngIf="loading || error" class="h-100 d-flex align-items-center justify-content-center">
+    <hc-error *ngIf="!loading && error" (onRefresh)="refresh($event)"></hc-error>
+    <hc-spinner *ngIf="loading"></hc-spinner>
+</div>

@@ -1,0 +1,60 @@
+:host {
+    display: block;
+    position: fixed;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-top: var(--app-spacing-2);
+    z-index: var(--z-index-app);
+}
+
+.menu {
+    height: 100%;
+    background-color: var(--app-surface-color);
+    border-radius: 0 var(--app-radius-1) 0 0;
+    padding: var(--app-spacing-2) calc(var(--app-spacing-2) * 1.5);
+    box-shadow: var(--app-shadow);
+
+    .menu-item {
+        margin-bottom: 20px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        color: var(--app-text-color);
+
+        .icon {
+            width: 45px;
+            height: 45px;
+            border-radius: 8px;
+            background-color: var(--app-surface-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 3px 10px var(--app-border-color);
+
+            i {
+                font-size: var(--app-font-size-2xl);
+                color: var(--app-text-color);
+            }
+        }
+
+        span {
+            margin-left: var(--app-spacing-2);
+            font-size: var(--app-font-size-lg);
+        }
+
+        &.active {
+            .icon {
+                background-color: var(--app-primary-color);
+                box-shadow: 0 3px 10px var(--app-primary-color);
+
+                i {
+                    color: var(--app-text-invert-color);
+                }
+            }
+
+            span {
+                color: var(--app-primary-color);
+            }
+        }
+    }
+}

@@ -1,0 +1,76 @@
+:root {
+
+    /* Sizes */
+    --app-spacing-1: 1rem;
+    --app-spacing-2: 1.5rem;
+    --app-spacing-3: 2rem;
+    --app-radius-1: 10px;
+
+    --app-scroll-bar-size: 10px;
+
+    /* 3D Position */
+    --z-index-app: 10;
+    --z-index-section: 1;
+
+    /* Shadow */
+    --app-shadow: 0 0 10px #2121211A;
+
+    /* Light theme */
+    --app-primary-color: #399100;
+    --app-secondary-color: #275e01;
+    --app-ternary-color: #7CB342;
+    --app-accent-color: #5dce17;
+
+    --app-surface-color: #ffffff;
+    --app-background-color: #F4F5FA;
+    --app-border-color: #D0D0D0;
+
+    --app-text-color: #222629;
+    --app-sub-text-color: #737373;
+    --app-text-invert-color: #F1F8E9;
+
+    --app-body-color: #F0F2F5;
+    --app-menu-color: #f0f0f0;
+    --app-light-color: #ffffff;
+    --app-hover-color: #ffffff;
+    --app-text-secondary-color: #909090;
+    --app-text-secondary-invert-color: #cbcbcb;
+    --app-disabled-color: #909090;
+
+    --app-warning-color: #D5B200;
+    --app-danger-color: #E60336;
+    --app-success-color: #0EC27B;
+    --app-info-color: #0083D1;
+
+    /* Fonts weight */
+    --app-font-thin: 100;
+    --app-font-light: 300;
+    --app-font-normal: 400;
+    --app-font-bold: 700;
+    --app-font-bolder: 800;
+    --app-font-black: 900;
+
+    /* Fonts size */
+    --app-font-size-xs: 0.75rem;
+    --app-font-size-sm: 0.875rem;
+    --app-font-size-base: 1rem;
+    --app-font-size-lg: 1.125rem;
+    --app-font-size-xl: 1.25rem;
+    --app-font-size-2xl: 1.5rem;
+    --app-font-size-3xl: 1.875rem;
+    --app-font-size-4xl: 2.25rem;
+    --app-font-size-5xl: 3rem;
+    --app-font-size-6xl: 4rem;
+    --app-font-size-7xl: 5rem;
+    --app-font-size-8xl: 6rem;
+    --app-font-size-9xl: 8rem;
+    --app-font-size-10xl: 10rem;
+
+    /* Spacing */
+    --spacer: 1rem;
+    --spacer-1: calc(var(--spacer) * .25);
+    --spacer-2: calc(var(--spacer) * .5);
+    --spacer-3: --app-spacer;
+    --spacer-4: calc(var(--spacer) * 1.5);
+    --spacer-5: calc(var(--spacer) * 3);
+}

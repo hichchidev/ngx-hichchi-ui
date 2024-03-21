@@ -1,0 +1,22 @@
+<ng-container *ngIf="menuDirective; else menuTemplate">
+    <ng-container *ngTemplateOutlet="menuDirective.templateRef"></ng-container>
+</ng-container>
+<ng-template #menuTemplate>
+    <div class="menu">
+        <ng-container *ngIf="menuItemDirective; else menuItemsTemplate">
+            <ng-template ngFor let-menuItem let-i="index" [ngForOf]="menuItems" [ngForTrackBy]="trackBy">
+                <ng-container *ngTemplateOutlet="menuItemDirective.templateRef; context: { $implicit: menuItem, index: i }"></ng-container>
+            </ng-template>
+        </ng-container>
+        <ng-template #menuItemsTemplate>
+            <ng-container *ngFor="let item of menuItems; let i = index">
+                <div class="menu-item" *ngIf="!item.hidden" [routerLink]="item.routerLink" [class.active]="activeIndex === i" (click)="onClick($event, i, item)">
+                    <div class="icon">
+                        <i [ngClass]="item.icon"></i>
+                    </div>
+                    <span class="ml-3">{{ item.label }}</span>
+                </div>
+            </ng-container>
+        </ng-template>
+    </div>
+</ng-template>

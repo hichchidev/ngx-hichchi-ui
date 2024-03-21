@@ -1,0 +1,13 @@
+<div class="header-menu-trigger" [ngStyle]="{ backgroundImage: 'url(' + menu?.image + ')' }" (click)="toggleMenu()"></div>
+
+<div #menuRef class="header-menu-container">
+    <div class="header-menu-items">
+        <ng-container *ngFor="let item of menu?.items">
+            <div class="header-menu-item" *ngIf="!item.separator" (click)="action(item, $event)" [routerLink]="item.routerLink">
+                <i *ngIf="item.icon" [ngClass]="item.icon"></i>
+                <div class="ms-2">{{ item.label }}</div>
+            </div>
+            <div *ngIf="item.separator" class="header-menu-separator"></div>
+        </ng-container>
+    </div>
+</div>

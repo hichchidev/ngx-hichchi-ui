@@ -1,0 +1,12 @@
+<div class="layout-content">
+    <ng-scrollbar autoHeightDisabled="false" trackClass="scroll-track" thumbClass="scroll-thumb" visibility="native">
+        <div scrollViewport>
+            <div class="layout-scroll-content">
+                <router-outlet></router-outlet>
+                <ng-container *ngIf="footer">
+                    <ng-content select="hc-layout-footer"></ng-content>
+                </ng-container>
+            </div>
+        </div>
+    </ng-scrollbar>
+</div>

@@ -1,0 +1,50 @@
+:host {
+    display: block;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: var(--app-surface-color);
+    box-shadow: var(--app-shadow);
+    z-index: var(--z-index-app);
+
+    .layout-header {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .layout-header-left {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding-left: var(--app-spacing-2);
+
+            .layout-header-logo {
+                height: calc(100% - 20px);
+
+                img {
+                    height: 100%;
+                }
+            }
+
+            .layout-header-title {
+                font-size: var(--app-font-size-3xl);
+                font-weight: var(--app-font-black);
+            }
+        }
+
+        .layout-header-right {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: var(--app-spacing-2);
+        }
+    }
+}
+
+
+

@@ -12,6 +12,7 @@ npm-debug.log
 yarn-error.log
 
 # IDEs and editors
+.idea/
 .project
 .classpath
 .c9/
@@ -39,3 +40,5 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+/projects/ngx-hichchi-ui/ngx-hichchi-ui.css
+/projects/ngx-hichchi-ui/ngx-hichchi-ui.css.map

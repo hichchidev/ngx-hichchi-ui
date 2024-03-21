@@ -117,7 +117,7 @@
       "projectType": "library",
       "root": "projects/ngx-hichchi-ui",
       "sourceRoot": "projects/ngx-hichchi-ui/src",
-      "prefix": "lib",
+      "prefix": "hc",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",

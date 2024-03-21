@@ -1,0 +1,47 @@
+:host {
+    height: calc(100% - var(--app-spacing-1) * 2);
+    aspect-ratio: 1;
+    position: relative;
+}
+
+.header-menu-trigger {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    box-shadow: var(--app-shadow);
+    cursor: pointer;
+}
+
+.header-menu-container {
+    position: absolute;
+    background-color: var(--app-surface-color);
+    box-shadow: var(--app-shadow);
+    padding: 5px 0;
+    border-radius: var(--app-radius-1);
+    font-size: var(--app-font-size-sm);
+
+    .header-menu-item {
+        cursor: pointer;
+        white-space: nowrap;
+        padding: 5px var(--app-spacing-1);
+        color: var(--app-text-color);
+        display: flex;
+
+        &:hover {
+            color: var(--app-hover-color);
+            background-color: var(--app-primary-color);
+        }
+
+        .header-menu-item-icon {
+            margin-right: var(--app-spacing-1);
+        }
+    }
+
+    .header-menu-separator {
+        border-bottom: 1px solid var(--app-border-color);
+        margin: 5px var(--app-spacing-1);
+        flex: 1;
+    }
+}
