@@ -1,5 +1,5 @@
 {
-  "name": "ngx-hichchi-test",
+  "name": "ngx-hichchi-ui",
   "version": "0.0.0",
   "scripts": {
     "build:sass": "sass projects/ngx-hichchi-ui/ngx-hichchi-ui.scss projects/ngx-hichchi-ui/ngx-hichchi-ui.css",

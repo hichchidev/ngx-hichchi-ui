@@ -2,4 +2,4 @@
 "ngx-hichchi-ui": patch
 ---
 
-Initial publish
+Fix
