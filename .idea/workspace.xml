@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Project" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dab049bd-161f-4989-9813-00f16afcc27a" name="Changes" comment="Initial publish">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.changeset/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/.changeset/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.changeset/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.changeset/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.changeset/spicy-pigs-ring.md" beforeDir="false" afterPath="$PROJECT_DIR$/.changeset/spicy-pigs-ring.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/publish.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/publish.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ngx-hichchi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ngx-hichchi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/error/error.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/error/error.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/error/error.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/error/error.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout-content/layout-content.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout-content/layout-content.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout-content/layout-content.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout-content/layout-content.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout-footer/layout-footer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout-footer/layout-footer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout-header/header-menu/header-menu-popup/header-menu-popup.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout-header/header-menu/header-menu-popup/header-menu-popup.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout-header/header-menu/header-menu-popup/header-menu-popup.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout-header/header-menu/header-menu-popup/header-menu-popup.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout-header/header-menu/header-menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout-header/header-menu/header-menu.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout-header/header-menu/header-menu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout-header/header-menu/header-menu.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout-header/layout-header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout-header/layout-header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout-header/layout-header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout-header/layout-header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout-sidenav/layout-sidenav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout-sidenav/layout-sidenav.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout-sidenav/layout-sidenav.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout-sidenav/layout-sidenav.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/layout/layout.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/section/section.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/section/section.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/section/section.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/section/section.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/spinner/spinner.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/spinner/spinner.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/spinner/spinner.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/components/spinner/spinner.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/directives/header-logo.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/directives/header-logo.directive.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/directives/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/directives/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/directives/menu-item.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/directives/menu-item.directive.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/directives/menu.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/directives/menu.directive.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/directives/section-heading.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/directives/section-heading.directive.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/hc-common.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/hc-common.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/interfaces/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/interfaces/menu.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/interfaces/menu.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/interfaces/pagination.interfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-common/interfaces/pagination.interfaces.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/components/input/input.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/components/input/input.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/components/input/input.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/components/input/input.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/custom-form-controll.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/custom-form-controll.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/directives/autocomplete.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/directives/autocomplete.directive.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/directives/date-time-picker.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/directives/date-time-picker.directive.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/directives/datepicker.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/directives/datepicker.directive.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/directives/email.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/directives/email.directive.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/directives/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/directives/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/directives/no-validation.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/directives/no-validation.directive.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/directives/number.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/directives/number.directive.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/directives/password.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/directives/password.directive.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/directives/textarea.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/directives/textarea.directive.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/directives/timepicker.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/directives/timepicker.directive.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/directives/validation-error.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/directives/validation-error.directive.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/hc-form-control.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/hc-form-control.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-form-control/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-pipes/hc-pipes.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-pipes/hc-pipes.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-pipes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-pipes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-pipes/pipes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-pipes/pipes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-pipes/pipes/safe.pipe.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-pipes/pipes/safe.pipe.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-pipes/pipes/string.pipes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/hc-pipes/pipes/string.pipes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/ngx-hichchi-ui.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/ngx-hichchi-ui.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/public-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/public-api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/contact/contact.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/contact/contact.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/contact/contact.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/contact/contact.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.spec.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EditorConfigPreviewManager">
+    <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/projects/ngx-hichchi-ui/src/lib/ngx-hichchi-ui.component.ts" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="f001b876-cba8-44b5-b660-dc2aac369ff6" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="Project" pattern="file[ngx-hichchi]:projects/*||file[ngx-hichchi]:src/*" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+
+  &quot;associatedIndex&quot;: 2
+
+}</component>
+  <component name="ProjectId" id="2e0ccI6AI8fqsn3nEQVruzMsX3N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+
+  &quot;keyToString&quot;: {
+
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+
+    &quot;last_opened_file_path&quot;: &quot;C:/Workspace/Personal/npm/ngx-hichchi/projects/ngx-hichchi-ui&quot;,
+
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+
+    &quot;npm.library.executor&quot;: &quot;Run&quot;,
+
+    &quot;npm.library:watch.executor&quot;: &quot;Run&quot;,
+
+    &quot;npm.lint.executor&quot;: &quot;Run&quot;,
+
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+
+    &quot;npm.verdaccio.executor&quot;: &quot;Run&quot;,
+
+    &quot;npm.watch.executor&quot;: &quot;Run&quot;,
+
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Workspace\\Personal\\npm\\ngx-hichchi\\node_modules\\typescript\\lib&quot;,
+
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+
+  }
+
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Workspace\Personal\npm\ngx-hichchi\projects\ngx-hichchi-ui" />
+      <recent name="C:\Workspace\Personal\npm\ngx-hichchi\.github" />
+      <recent name="C:\Workspace\Personal\npm\ngx-hichchi" />
+      <recent name="C:\Workspace\Personal\npm\ngx-hichchi\src" />
+      <recent name="C:\Workspace\Personal\npm\ngx-hichchi\src\app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.lint">
+    <configuration name="library" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="library" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="library:watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="library:watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="verdaccio" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="verdaccio" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.lint" />
+        <item itemvalue="npm.library" />
+        <item itemvalue="npm.verdaccio" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.library:watch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-985749b364ce-JavaScript-WS-233.14808.24" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dab049bd-161f-4989-9813-00f16afcc27a" name="Changes" comment="" />
+      <created>1711045013494</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711045013494</updated>
+      <workItem from="1711045014606" duration="925000" />
+      <workItem from="1711045967839" duration="2228000" />
+      <workItem from="1711048244563" duration="1880000" />
+      <workItem from="1711050177709" duration="5587000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1711046704044</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711046704044</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <option name="closed" value="true" />
+      <created>1711047261356</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711047261356</updated>
+    </task>
+    <task id="LOCAL-00003" summary="restored the project from the old version">
+      <option name="closed" value="true" />
+      <created>1711050801057</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711050801057</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add changelist">
+      <option name="closed" value="true" />
+      <created>1711053167907</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711053167907</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add changeset">
+      <option name="closed" value="true" />
+      <created>1711054480212</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711054480212</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Initial publish">
+      <option name="closed" value="true" />
+      <created>1711054677439</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711054677439</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Initial publish">
+      <option name="closed" value="true" />
+      <created>1711055132108</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711055132108</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="init" />
+    <MESSAGE value="restored the project from the old version" />
+    <MESSAGE value="Add changelist" />
+    <MESSAGE value="Add changeset" />
+    <MESSAGE value="Initial publish" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial publish" />
+  </component>
+</project>

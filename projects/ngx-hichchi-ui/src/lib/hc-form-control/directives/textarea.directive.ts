@@ -1,6 +1,7 @@
-import { Directive } from "@angular/core";
+import { Directive } from "@angular/core";
+
+@Directive({
+    selector: "[hcTextarea]",
+})
+export class TextareaInputDirective {}
 
-@Directive({
-    selector: "[hcTextarea]",
-})
-export class TextareaInputDirective {}

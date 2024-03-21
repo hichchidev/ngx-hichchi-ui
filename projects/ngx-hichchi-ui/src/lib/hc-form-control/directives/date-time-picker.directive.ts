@@ -1,6 +1,7 @@
-import { Directive } from "@angular/core";
+import { Directive } from "@angular/core";
+
+@Directive({
+    selector: "[hcDatetimepicker]",
+})
+export class DateTimePickerInputDirective {}
 
-@Directive({
-    selector: "[hcDatetimepicker]",
-})
-export class DateTimePickerInputDirective {}

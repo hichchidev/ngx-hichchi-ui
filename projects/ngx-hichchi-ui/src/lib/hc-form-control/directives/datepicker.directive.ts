@@ -1,6 +1,7 @@
-import { Directive } from "@angular/core";
+import { Directive } from "@angular/core";
+
+@Directive({
+    selector: "[hcDatepicker]",
+})
+export class DatepickerDirective {}
 
-@Directive({
-    selector: "[hcDatepicker]",
-})
-export class DatepickerDirective {}

@@ -1,6 +1,7 @@
-import { Directive } from "@angular/core";
+import { Directive } from "@angular/core";
+
+@Directive({
+    selector: "[hcPassword]",
+})
+export class PasswordInputDirective {}
 
-@Directive({
-    selector: "[hcPassword]",
-})
-export class PasswordInputDirective {}

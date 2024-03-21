@@ -1,6 +1,7 @@
-// noinspection JSUnusedGlobalSymbols
+// noinspection JSUnusedGlobalSymbols
+
+export interface PaginatedResponse<T> {
+    data: T[];
+    rowCount: number;
+}
 
-export interface PaginatedResponse<T> {
-    data: T[];
-    rowCount: number;
-}

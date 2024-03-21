@@ -1,6 +1,7 @@
-import { Directive } from "@angular/core";
+import { Directive } from "@angular/core";
+
+@Directive({
+    selector: "[hcEmail]",
+})
+export class EmailInputDirective {}
 
-@Directive({
-    selector: "[hcEmail]",
-})
-export class EmailInputDirective {}

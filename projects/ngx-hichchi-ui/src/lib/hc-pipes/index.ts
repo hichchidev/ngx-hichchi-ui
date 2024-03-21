@@ -1,3 +1,4 @@
-export * from "./pipes";
+export * from "./pipes";
+
+export * from "./hc-pipes.module";
 
-export * from "./hc-pipes.module";
