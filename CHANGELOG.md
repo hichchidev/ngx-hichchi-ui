@@ -1,5 +1,12 @@
 # ngx-hichchi-ui
 
+## 0.0.2
+
+### Patch Changes
+
+- aabcce0: Fix
+- b1b64ee: Fix
+
 ## 0.0.1
 
 ### Patch Changes
