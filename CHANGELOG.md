@@ -1,4 +1,4 @@
-# ngx-hichchi-test
+# ngx-hichchi-ui
 
 ## 0.0.1
 
