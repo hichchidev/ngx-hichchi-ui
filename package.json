@@ -1,5 +1,5 @@
 {
-  "name": "ngx-hichchi",
+  "name": "ngx-hichchi-test",
   "version": "0.0.0",
   "scripts": {
     "build:sass": "sass projects/ngx-hichchi-ui/ngx-hichchi-ui.scss projects/ngx-hichchi-ui/ngx-hichchi-ui.css",
@@ -7,9 +7,11 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "library": "npm run build:sass && ng build ngx-hichchi-ui",
-    "library:watch": "npm run build:sass && ng build ngx-hichchi-ui --watch",
+    "library:build": "npm run build:sass && ng build ngx-hichchi-ui",
+    "library:build:watch": "npm run build:sass && ng build ngx-hichchi-ui --watch",
     "verdaccio": "verdaccio",
+    "prepublish": "npm run library:build",
+    "release": "npm run library:build && changeset publish",
     "test": "ng test",
     "lint": "ng lint"
   },
